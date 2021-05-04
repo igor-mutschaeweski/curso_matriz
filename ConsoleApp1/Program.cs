@@ -8,6 +8,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("=====================================================");
+            Console.WriteLine("PROGRAMAÇÃO ORIENTADA A OBJETOS - EXERCICIO DE MATRIZ");
+            Console.WriteLine("=====================================================");
+
+            Console.WriteLine();
+            
             Console.WriteLine("Digite a quantidade de linhas e colunas para a matriz:");
             String[] y = Console.ReadLine().Split(' ');
 
